@@ -1,0 +1,16 @@
+/*
+	codeWrittenBy: 'Rohit Sattu';
+*/
+#about {
+	height: 100vh;
+	background: none;
+}
+* {
+	box-sizing: border-box;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
