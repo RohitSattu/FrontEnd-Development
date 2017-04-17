@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta Data -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Rohit Sattu">
+	<meta name="description" content="This is a portfolio website of Rohit Sattu">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Web Design, Web Development, UI, UX, Rohit Sattu, Toronto, OCAD University, York University, Computer Science, Responsive Design">
+
+	<!-- Site Title -->
+	<title>ROHIT SATTU</title>
+	<!-- CSS Files -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style/bodyStyle.css"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body onload="popUpNotification()">
+<!-- Site Header -->
+<header>
+	<div class="notification" id="notificationID">
+		<div class="notiCont">
+			<p id="notiP">Check out my upcoming projects <a href="https://webspace.ocad.ca/~3157793/comingSoon.html">here!</a></p>
+		</div>
+		<div class="notiClose">
+			<button class="closeBtn" id="closeBtn" onclick="closeBtn()">HIDE</button>
+		</div>
+	</div>
+	<!-- Space for my next assignment (Canvas) -->
+</header>
+<!-- Site Navigation -->
+<nav>
+	<!-- Navigation Bar -->
+	<div class="menu">
+		<!-- Site Logo -->
+		<a class="siteLogo" href="https://webspace.ocad.ca/~3157793">ROHIT SATTU</a>
+		<!-- Menu List -->
+		<ul class="menuItems">
+			<li class="menuItem"></li>
+			<li class="menuItem"><a class="menuItemLink" href="#projectsSection">PROJECTS</a></li>
+			<li class="menuItem"><a class="menuItemLink" href="#skillsSection">SKILLS</a></li>
+			<li class="menuItem"><a class="menuItemLink" href="#contactSection">CONTACT</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- Site Main Content Area -->
+<div class="main">
+	<section id="about">
+		<div class="container" id="aboutCont">
+			<h2>Rohit Sattu</h2>
+			<p>I am a Toronto based interdisiplinary designer and a software developer. I am currently working towards my career in <a href="http://www.ocadu.ca/academics/undergraduate/digital-futures.htm">Digital Futures, Bachelor of Design at OCAD Univeristy</a>. I attended <a href="http://lassonde.yorku.ca/">Lassonde School of Engineering, York University</a> to study Computer Science, and gained a vast amount of knowledge in Software Development. I worked for <a href="http://www.yorku.ca/index.html">York University</a> as well as companies like <a href="http://sigma-systems.com/">Sigma Systems</a> and <a href="https://www.aircanada.com/ca/en/aco/home.html">Air Canada</a>.</p>
+		</div>
+	</section>
+	<!-- Projects Section -->
+	<section id="projects" id="projCont">
+		<a class="anchor" id="projectsSection"></a>
+		<div class="container">
+			<h2>PROJECTS</h2>
+			<div>
+				<img alt="Image of wearables, a smart watch on someone's hand." class="indexPageAssets" id="wearables" src="assets/imgs/wearables.jpg"> 
+				<div class="indexPageParas">
+					<h2>
+						WEARABLES
+					</h2>
+					<p>
+						I was introduced to core of Wearable Technology at OCAD University.
+						Started with a small circuit on a glove and worked my way to making a biometric shirt that you alert you everytime you slouch. 
+						<a href="#">Read More.</a>
+					</p>
+				</div>
+			</div>
+			<div class="clearIt"></div>
+			<div>
+				<img alt="a man is holding a light build with mini lights in it, connected to a wire." class="indexPageAssets" id="physicalComputing" src="assets/imgs/physical_computing.jpg">
+				<div class="indexPageParas">
+					<h2>
+						MICROCONTROLLERS
+						<!-- Links: 
+							http://blog.ocad.ca/wordpress/3157793/2016/11/motion-detection-and-tracking-draft/ 
+							http://blog.ocad.ca/wordpress/3157793/2016/11/simple-arduino-project-using-ultrasonic-sensor/
+							-->
+					</h2>
+					<p>
+						I made an Art piece that reflects RGB colors using arduino and a surveillance art in the shape of a pyramid (yes, like "All Seeing Eye").
+						Now I am working on IoT with Photon. <a href="#">Read More.</a>
+					</p>
+				</div>
+			</div>
+			<div class="clearIt"></div>
+			<div>
+				<img alt="Image of Laptop which shows source code of a website." class="indexPageAssets" id="eCommerce" src="assets/imgs/webDev.jpg">
+				<div class="indexPageParas">
+					<h2>
+						WEB DESIGN & DEVELOPMENT
+					</h2>
+					<p>
+						I designed and build many websites using Bootstrap templates and WordPress themes. Now I am working on making art on websites. 
+						<a href="#">Read More.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clearIt"></div>
+	<!-- Skills Section -->
+	<section id="skills">
+		<a class="anchor" id="skillsSection"></a>
+		<div class="container" id="skillsCont">
+			<h2>SKILLS</h2>
+			<div>
+				<video class="indexPageAssets" src="assets/vids/Binary_screen_Videvo_720p.mov" poster="assets/imgs/skills.png" loop autoplay>
+				  <img alt="image of binary numbers" class="indexPageAssets" id="lotssOfSkills" src="assets/imgs/skills.png">
+				</video>
+				
+				<div class="indexPageParas">
+					<h2>
+						I WILL GO TEACH MYSELF A NEW SKILL WHILE YOU'RE HERE.
+					</h2>
+					<p>
+						But What do I know so far? Mmm, I guess you will have to wait to find out (Or check out my <a href="https://www.linkedin.com/in/rohitsattu">LinkedIn Page</a>).
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clearIt"></div>
+	<!-- Contact Me Section -->
+	<section id="contact">
+		<a class="anchor" id="contactSection"></a>
+		<div class="container" id="contactCont">
+			<h2>SAY HELLO!</h2>
+			<div>
+				<video class="indexPageAssets" src="assets/vids/Laptop_Videvo_720p.mov" poster="assets/imgs/contact.png" loop autoplay>
+				  <img alt="image of a man typing on a laptop" class="indexPageAssets" id="contactME" src="assets/imgs/contact.png">
+				</video>
+				<div class="indexPageParas">
+					<h2>
+						IT'S EASY.
+					</h2>
+					<p>Ask any question and I will get back to you within 48 hours.</p>
+					<a href="mailto:rohitsattu@outlook.com">
+						<button id="clickME" class="classicBtn">
+							Get in touch!
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clearIt"></div>
+</div>
+
+<!-- Site Footer -->
+<footer>
+	<!-- Footer Bar -->
+	<div class="container footerCont">
+		<!-- Copyrights -->
+		<div class="copyRights">
+			<p>&copy; <a class="siteLogo" href="https://webspace.ocad.ca/~3157793">ROHIT SATTU</a></p>
+		</div>
+
+		<!-- Social Media Links (LinkedIn) -->
+		<div class="socialMediaLinks">
+			<a href="https://www.linkedin.com/in/rohitsattu"><img alt="LinkedIn Logo. Links to https://www.linkedin.com/in/rohitsattu" src="assets/imgs/LinkedInLogo.png"></a>
+		</div>
+	</div>
+	<!-- Back to top button  -->
+	<!-- <a href="#"><span class="upArrow">&#8679;</span></a> -->
+	<!-- JavaScript Files -->
+	<script type="text/javascript" src="magic/script.js"></script>
+</footer>
+</body>
+</html>
+
+<!--
+http://www.w3schools.com/tags/tag_meta.asp
+http://www.w3schools.com/html/default.asp
+http://www.w3schools.com/css/default.asp
+http://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
+http://www.w3schools.com/html/html_layout.asp
+http://www.w3schools.com/html/html_entities.asp
+https://fonts.google.com/?selection.family=Nunito
+https://css-tricks.com/snippets/css/using-font-face/ 
+http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+http://www.w3schools.com/tags/tag_video.asp
+-->
