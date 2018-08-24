@@ -1,5 +1,5 @@
 var wrapper = document.getElementById("wrapper");
-var canvas, ctx, counter = 0, h = 400, w = 500;
+var canvas, ctx, counter = 0, h = 300, w = 500;
 var col = {};
 col.blue = "rgba(124, 174, 255, 1)";
 
