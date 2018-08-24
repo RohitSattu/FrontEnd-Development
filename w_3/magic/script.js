@@ -19,7 +19,7 @@ for (i = 0; i < 10; i++) {
   context.beginPath();
   context.lineWidth = 4;
   context.strokeStyle = 'blue';
-  context.moveTo(0, 0);
+  context.moveTo(i, 0);
   context.lineTo(100 + (random() * 100), 100);
   context.stroke();
 }
